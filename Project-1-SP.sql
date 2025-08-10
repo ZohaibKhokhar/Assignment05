@@ -82,7 +82,7 @@ END
 go
 
 
--- 3. UPDATE (Update Patient Name)
+
 CREATE PROCEDURE stp_UpdatePatient
     @PatientID INT,
     @PatientName VARCHAR(100)
@@ -501,7 +501,7 @@ begin
 end
 go
 
--- update
+
 create procedure stp_update_userrole
     @roleid int,
     @rolename varchar(50)
@@ -535,7 +535,7 @@ begin
 end
 go
 
--- delete
+
 create procedure stp_delete_userrole
     @roleid int
 as
@@ -849,6 +849,7 @@ BEGIN
     END CATCH
 END
 GO
+
 
 
 
